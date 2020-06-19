@@ -1,0 +1,21 @@
+{
+  "name": "telegrambot",
+  "version": "1.0.0",
+  "description": "telegram bot ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^7.15.2",
+    "node-telegram-bot-api": "^0.50.0",
+    "open-graph-scraper": "^4.1.1"
+  },
+  "engines": {
+    "node": "12.16.1"
+  }
+
+}
